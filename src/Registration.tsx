@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import { ArrowRight, CheckCircle2, Sparkles, Users, Zap } from "lucide-react";
 import "./Registration.css";
 
-const API_URL = "http://127.0.0.1:5000";
+const API_URL = "https://backend-psi-two-78.vercel.app";
 
 export default function Registration() {
   const [searchParams] = useSearchParams();
